@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="no">
+    <meta charset="UTF-8">
+    <title>Peppes Pizza</title>
+    <style>
+        footer {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        header h1 {
+            font-size: 5rem;
+            color:  black;
+            padding: 1rem;
+            text-align: center;
+            background-color: brown;
+        }
+        main h1 {
+            font-family: 'Courier New', Courier, monospace;
+            border: 0.5rem solid black;
+            padding: 1rem;
+            
+        }
+        section {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            border: 0.5rem solid black;
+            gap: 1rem;
+            background-color: black;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 1rem;
+
+        }
+        div {
+
+            padding-bottom: 5rem;
+            padding-top: 2rem;
+        }
+        div h1 {
+            text-align: center;
+        }
+        article h1 {
+            font-size: 3rem;
+        }
+    </style>
+    <header>
+        <h1>Peppes Pizza!</h1>
+    </header>
+    <main>
+        <h1> Her er vår <b>meny</b>. Vi selger 5 ulike pizzaer</h1>
+    </main>
+    <section>
+        <img src="pizza1.jpeg" alt="">
+        <img src="pizza2.jpeg" alt="">
+        <img src="pizza3.jpeg" alt="">
+        <img src="pizza4.jpeg" alt="">
+        <img src="pizza5.jpeg" alt="">
+    </section>
+    <div>
+        <h1><b>Bestilling av bord hos oss</b></h1>
+        <form action="lagring.html">
+            <label>Antall personer ved bordet?</label>
+            <input type="text" placeholder="nummer">
+            <label>Navn?</label>
+            <input type="text" placeholder="fornavn og etternavn">
+            <button type="submit">Send inn</button>
+        </form>
+    </div>
+    <article>Kontakt oss</article>
+    <footer>
+        <h1>Tif: 69 69 69 69</h1>
+        <h1>EMAIL: peppespizza@gmail.com</h1>
+        <h1>Håper du liker pizza</h1>
+    </footer>
+</html>
